@@ -5,4 +5,4 @@ var L = L.fontcolor("red"); //changes color of variable
 
 document.write(J + L + K); //prints variables concatenated
 
-window.alert(7+7); //alerts with an expression
+window.alert(3+3); //alerts with an expression
