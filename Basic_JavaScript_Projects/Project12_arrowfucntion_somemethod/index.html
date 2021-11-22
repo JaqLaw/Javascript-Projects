@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Title</title>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    </head>
+
+    <body>
+        <h2>Javascript Arrow Function</h2>
+
+        <p id="demo"></p>
+
+        <script>
+            /* long way:
+            var hello;
+            hello = function() {
+                return "Hello, world."
+            }
+            */
+
+            /* arrow function */
+
+            hello = () => "Hello, world.";
+
+            document.getElementById("demo").innerHTML = hello();
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="JS/main.js" defer></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <h1>Which is your favorite animal?</h1>
+    <ul>
+        <li>Cow</li>
+        <li>Chicken</li>
+        <li>Pig</li>
+        <li>Panda</li>
+        <li>Slow Loris</li>
+    </ul>
+    <h3>Enter your choice below:</h3>
+
+    <input id="animal" type="text">
+    <button onclick="animal_switch()">Submit</button>
+
+    <p id="output"></p>
+
+    <br><br>
+
+    <h1 class="Click">This text will change!</h1>
+    <h3 class="Click">This text will not change!</h3>
+    <button onclick="change_text()">Click here</button>
+
+    <br><br><br><br>
+
+    <canvas id="canvas1" width="500" height="250" style="border: 5px solid black;"></canvas>
+
+    <br><br>
+
+    <div>
+        <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <br><br>
+
+    <h1>Is this a fruit or a vegetable?</h1>
+    <h3>Click on an item to find out.</h3>
+
+    <ul>
+        <li onclick="fruitorveg_function(this)" data-fruitorveg="fruit">Tomato</li>
+        <li onclick="fruitorveg_function(this)" data-fruitorveg="vegetable">Broccoli</li>
+        <li onclick="fruitorveg_function(this)" data-fruitorveg="fruit">Avocado</li>
+        <li onclick="fruitorveg_function(this)" data-fruitorveg="fruit">Cucumber</li>
+    </ul>
+
+</body>
+
+</html>

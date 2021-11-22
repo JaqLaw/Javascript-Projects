@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript Array.some()</h2>
+    <p>The some() method checks if some array values pass a test.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const strings = ["red", "blue", "purple", "yellow", "green"];
+        let someCheckpurple = strings.some(myFunction);
+
+        document.getElementById("demo").innerHTML = "Some check purple is " + someCheckpurple;
+
+        function myFunction(value, index, array) {
+            return value == "purple";
+        }
+    </script>
+
+</body>
+
+</html>
